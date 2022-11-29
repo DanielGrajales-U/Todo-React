@@ -1,0 +1,41 @@
+.todo{
+    display:grid;
+    grid-template-columns:  30px 300px 200px;
+    grid-gap:10px;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.todo label{
+    cursor: pointer;
+}
+
+.todo input[type=checkbox] {
+    border-radius: 50%;
+}
+
+.delete span{
+    color:red;
+    cursor: pointer;
+}
+
+.todos{
+    border: 1px solid #fff;
+    border-radius: 14px;
+    width: 600px;
+}
+
+
+label{
+    padding-left: 1.3em;
+    position:relative
+}
+
+
+
+.complete-task label{
+    text-decoration: line-through;
+}
+
